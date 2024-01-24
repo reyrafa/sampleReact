@@ -1,14 +1,13 @@
-// Imports for the appnavbar
+
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-// import NavDropdown from "react-bootstrap/NavDropdown";
+
 
 import { Link, NavLink } from "react-router-dom";
 
 import UserContext from "../UserContext";
 import { useContext } from "react";
-import AddCourse from "../pages/AddCourse";
 
 export default function AppNavbar() {
     // State to store the user information in the login
